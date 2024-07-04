@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Average Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Average Calculator</h1>
+    </header>
+    <main>
+        <section class="input-section">
+            <label for="number-id">Enter Number ID:</label>
+            <input type="text" id="number-id" placeholder="e.g. p, f, e, or r">
+            <button id="fetch-numbers">Fetch Numbers</button>
+        </section>
+        <section class="response-section">
+            <h2>Response:</h2>
+            <div id="response-container">
+                <p id="previous-numbers"></p>
+                <p id="current-numbers"></p>
+                <p id="average"></p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
